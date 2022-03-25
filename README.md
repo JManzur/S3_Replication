@@ -53,7 +53,7 @@ To test the solution put a file in the source bucket.
 ```bash
 aws s3 cp test_file.txt s3://source-bucket-name
 ```
->To get the bucket name, you can use: `terraform output source_bucket_name`
+>:bulb: To get the bucket name, you can use: `terraform output source_bucket_name`
 
 ## Author:
 
